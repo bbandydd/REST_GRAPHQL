@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/andy/.nvm/versions/node/v7.7.1/bin/node /Users/andy/.nvm/versions/node/v7.7.1/bin/yarn add koa-pg
+
+PATH: 
+  /Users/andy/.nvm/versions/node/v7.7.1/bin:/Users/andy/.rvm/gems/ruby-2.1.5/bin:/Users/andy/.rvm/gems/ruby-2.1.5@global/bin:/Users/andy/.rvm/rubies/ruby-2.1.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/andy/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  7.7.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "REST_GRAPHQL",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "koa": "^2.4.1",
+      "koa-router": "^7.4.0",
+      "nodemon": "^1.14.12",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/andy/Desktop/REST_GRAPHQL/package.json: Unexpected token } in JSON at position 303
+      at JSON.parse (<anonymous>)
+      at /Users/andy/.nvm/versions/node/v7.7.1/lib/node_modules/yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/Users/andy/.nvm/versions/node/v7.7.1/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /Users/andy/.nvm/versions/node/v7.7.1/lib/node_modules/yarn/lib/cli.js:103:13
